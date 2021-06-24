@@ -9,6 +9,7 @@ virtualenv -p <PATH_TO_PYTHON_3.9>  <YOUR_VENV_NAME>
 source virtualenv_name/bin/activate
 
 git clone -b master https://github.com/Creator69/Resonal.git
+cd Resonal
 pip install -r requirements.txt
 
 export FLASK_APP=main.py
